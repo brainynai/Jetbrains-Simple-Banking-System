@@ -1,0 +1,3 @@
+This project was completed as part of the Jetbrains Academy Python track. The objective of this project was to implement a simple bank account-like interface, with support for managing one's own account and transferring "money" between accounts. 
+
+The program uses a sqlite database to track the various active accounts. Note that in its current implementation, the database is wiped out on every startup. This was done to pass Jetbrains' automated testing, because the tests seemed to not be able to deal with having old data present in the table. The drop table command would have to be removed if this was to be used for anything. (ie., Note to future self)
